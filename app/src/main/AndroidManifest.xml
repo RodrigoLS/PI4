@@ -3,8 +3,11 @@
     package="com.example.marcelobhegedus.pi4.app">
 
     <application>
-        <activity android:name=".CadastroActivity" />
-        <activity android:name=".LoginActivity">
+        <activity android:name=".CadastroActivity">
+
+        </activity>
+        <activity android:name=".LoginActivity"></activity>
+        <activity android:name=".CadastroActivity2">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
